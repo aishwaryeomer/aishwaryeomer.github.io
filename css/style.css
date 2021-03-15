@@ -108,7 +108,7 @@ a img {
 
 #code {
   border-radius: 5px;
-  width:750px;
+  width:780px;
   margin: 0 auto;
   padding-top:15px;
   background: #ccc;
@@ -120,7 +120,7 @@ a img {
 }
 
 #console {
-  width:670px;
+  width:700px;
   padding: 40px;
   height: 560px;
   margin:0 auto;
@@ -222,6 +222,34 @@ img.icon {
   filter: gray;  /* For IE 6 - 9 */
   -webkit-transition: all .4s ease;
 }
+
+img.ril {
+  width: 75px;
+  height: 65px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius:50%;
+  float: left;
+  display: block;
+  margin-left: -95px;
+  margin-top: 5px;
+  background-color: #fff;
+  opacity: 0.8;
+  z-index: 0;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);   /*For Webkit browsers */
+  filter: gray;  /* For IE 6 - 9 */
+  -webkit-transition: all .4s ease;
+}
+
+img.ril:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  filter: none;
+}
+
 
 img.icon:hover {
   filter: grayscale(0%);
